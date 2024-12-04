@@ -26,6 +26,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm install
+    - run: npm install nayan-media-downloader@0.0.1
     - run: npm start
     - run: npm test
